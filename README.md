@@ -1,4 +1,4 @@
-# 🧠 Meu Portfólio de Projetos com Large Language Models (LLM)
+# 🧠  Portfólio de Projetos com Large Language Models (LLM)
 
 Este repositório serve como um hub central para diversos projetos e experimentos desenvolvidos com **Large Language Models (LLMs)**. O objetivo é explorar as capacidades dessas poderosas ferramentas de Inteligência Artificial em diferentes domínios e aplicações, desde análises preditivas até a automação de tarefas baseadas em linguagem.
 
