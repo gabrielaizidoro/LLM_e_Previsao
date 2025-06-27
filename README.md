@@ -1,96 +1,59 @@
-# 📦 Layout_txt — Repositório de Projetos para Geração, Validação e Visualização de Arquivos Posicionais
+# 🧠 Meu Portfólio de Projetos com Large Language Models (LLM)
 
-Este repositório centraliza projetos Python voltados à **automação de layouts posicionais (.txt)**, **validação de arquivos** e **monitoramento visual com previsão**, com foco em aplicações contábeis e de seguros.
-
----
-
-## 📁 Projetos Incluídos
-
-### 1. **🔍 Separador de Chaves EMI**
-> Extrai linhas específicas de arquivos `.txt` com base em chaves de referência definidas em planilha Excel.
-
-- 📥 Lê vários arquivos `.txt` em um diretório
-- 🔎 Localiza chaves entre a posição 3 a 15 da linha
-- 📊 Compara com chaves de uma planilha `.xlsx`
-- ✅ Gera um novo `.txt` com as linhas válidas
-- ⚠️ Relatório de chaves não localizadas
-
-📂 Pasta: `Separador de Chaves EMI`  
-📄 [README completo](./Separador%20de%20Chaves%20EMI/README.md)
+Este repositório serve como um hub central para diversos projetos e experimentos desenvolvidos com **Large Language Models (LLMs)**. O objetivo é explorar as capacidades dessas poderosas ferramentas de Inteligência Artificial em diferentes domínios e aplicações, desde análises preditivas até a automação de tarefas baseadas em linguagem.
 
 ---
 
-### 2. **🧾 Cria EMI — Gerador de Arquivo TXT Posicional**
-> Gera arquivos `.txt` com layout posicional fixo, a partir de uma planilha com dados de apólices.
+## 🎯 Objetivo Geral
 
-- 🧠 Validação de tipo e tamanho dos campos
-- 🔄 Formatação dos dados em layout fixo
-- 📄 Exporta arquivo `ARQEMISS.txt`
-- ⚠️ Gera relatório de erros por linha
-
-📂 Pasta: `Cria EMI`  
-📄 [README completo](./Cria%20EMI/README.md)
+-   **Exploração:** Investigar e aplicar diferentes arquiteturas e modelos de LLMs (locais e baseados em nuvem).
+-   **Desenvolvimento:** Criar soluções práticas que utilizem LLMs para resolver problemas reais.
+-   **Aprendizado Contínuo:** Documentar o processo de desenvolvimento, os desafios e as lições aprendidas em cada projeto.
+-   **Portfólio:** Apresentar a capacidade de trabalhar com tecnologias de ponta em Processamento de Linguagem Natural (PLN).
 
 ---
 
-### 3. **📊 Boletim de Envios — Verificação de Arquivos por Data**
-> Automatiza a verificação de recebimento de arquivos por seguradora e gera um boletim diário.
+## 📁 Projetos e Experimentos
 
-- 📅 Verifica arquivos com base na data de modificação (D-1)
-- 📈 Tabela com status por seguradora e data
-- 📧 Geração de e-mail com status consolidado
+Abaixo estão listados os projetos de LLM contidos neste repositório, com um breve resumo de cada um. Clique no link para o `README.md` específico de cada projeto e obter mais detalhes, instruções de execução e resultados.
 
-📂 Pasta: `Envio_Boletim_Automatico`  
-📄 [README completo](./Envio_Boletim_Automatico/README.md)
+### 1. 📈 LLM_Previsao — Previsão de Comissão com LLM para Explicações
 
----
+> Este projeto foca em combinar modelos estatísticos de previsão (Regressão Linear e Random Forest) com uma LLM local (`FLAN-T5`) para gerar previsões de valores de comissão e, crucialmente, fornecer explicações em linguagem natural sobre as métricas de performance do modelo.
 
-### 4. **📈 LLM_Previsao — Dashboard com Modelagem Preditiva**
-> Cria gráficos interativos com dados reais e previsões de volume, usando regressão e visualização por produto e seguradora.
+-   **Tecnologias Chave:** Python, Pandas, Scikit-learn, Hugging Face Transformers (FLAN-T5), Matplotlib, Openpyxl.
+-   **Aplicações:** Análise Preditiva, Geração de Relatórios Explicativos, Business Intelligence.
 
-- 🤖 Modelos preditivos via `sklearn` (Linear/Random Forest)
-- 📉 Gráficos reais e previstos por seguradora/produto
-- 💡 Dash simples com `matplotlib` e previsão integrada
-
-📂 Pasta: `LLM_Previsao`  
-📄 [README completo](./LLM_Previsao/README.md)
+📂 **Pasta:** `LLM_Previsao`
+📄 [README completo deste projeto](./LLM_e_Previsao/README.md)
 
 ---
 
-### 5. **🧪 Valida Erro Layout — Validador de Arquivos Posicionais**
-> Valida arquivos `.txt` conforme regras de tipo, tamanho e obrigatoriedade, com geração de relatório de erros.
+## ⚙️ Configuração e Requisitos Gerais
 
-- 🔍 Checa integridade de cada linha
-- 🧾 Confere formatos esperados por campo
-- 🛠️ Gera arquivo de erros com detalhes por linha e campo
+Para rodar os projetos neste repositório, você precisará ter:
 
-📂 Pasta: `Valida Erro layout`  
-📄 [README completo](./Valida%20Erro%20layout/README.md)
+-   **Python 3.8+** (preferencialmente a versão mais recente e estável).
+-   **Git** (para clonar o repositório).
+-   **`venv`** (ambiente virtual, altamente recomendado para gerenciar dependências).
+-   **CUDA Toolkit** e **cuDNN** (se você tiver uma GPU NVIDIA e quiser acelerar o processamento das LLMs. **Crucial para performance**).
 
----
-
-## 🛠️ Requisitos
-
-- Python 3.8+
-- Uso recomendado com `venv`
-- Instalação de dependências via `requirements.txt` em cada projeto
+Cada projeto individual possui um `README.md` detalhando suas dependências específicas e instruções de instalação via `pip install -r requirements.txt`.
 
 ---
 
-## 🚀 Execução
+## 🚀 Como Contribuir
 
-Cada projeto possui seu próprio `README.md` com instruções para:
-
-- Ativação do ambiente virtual
-- Instalação das dependências
-- Execução dos scripts principais
+Contribuições são bem-vindas! Sinta-se à vontade para:
+-   Abrir `issues` para sugestões ou problemas.
+-   Criar `pull requests` com melhorias ou novos projetos.
 
 ---
 
-## 👩‍💻 Autora
+## ✉️ Contato
 
-**Gabriela Izidoro**  
-Automação • Dados • Processos Contábeis  
-[github.com/gabrielaizidoro](https://github.com/gabrielaizidoro)
+**Gabriela Izidoro** Automação • Dados • Processos Contábeis • LLMs  
+[github.com/gabrielaizidoro](https://github.com/gabrielaizidoro)  
+
 
 ---
