@@ -25,7 +25,7 @@ Abaixo estão listados os projetos de LLM contidos neste repositório, com um br
 -   **Aplicações:** Análise Preditiva, Geração de Relatórios Explicativos, Business Intelligence.
 
 📂 **Pasta:** `LLM_Previsao`
-📄 [README completo deste projeto](./LLM_e_Previsao/README.md)
+📄 [README completo deste projeto](./LLM_flan-t5-base/README.md)
 
 ---
 

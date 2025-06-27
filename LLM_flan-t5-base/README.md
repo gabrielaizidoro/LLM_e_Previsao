@@ -35,10 +35,7 @@ Este projeto utiliza as seguintes tecnologias:
 Siga os passos abaixo para configurar e executar o projeto:
 
 1.  **Clone o Repositório Principal:**
-    ```bash
-    git clone [https://github.com/gabrielaizidoro/LLM_e_Pevisao.git](https://github.com/gabrielaizidoro/LLM_e_Pevisao.git)
-    cd Layout_txt/LLM_Previsao
-    ```
+    
     
 2.  **Crie e Ative o Ambiente Virtual:**
     É altamente recomendado usar um ambiente virtual para isolar as dependências do projeto.
